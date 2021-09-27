@@ -1,7 +1,7 @@
 # Проект: Путешествие по России
 
 ## Одностраничный сайт рассказывающий о нескольких вариантах путешествия по России.
-[Russian Travel](https://space8rain.github.io/russian-travel/)
+[GH-Pages - Russian Travel](https://space8rain.github.io/russian-travel/)
 
 ### Третья проектная работа в Я.Практикуме
 ### Закрепление навыков
