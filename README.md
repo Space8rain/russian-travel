@@ -14,3 +14,8 @@
 * <code><img src="https://user-images.githubusercontent.com/56598375/123514865-428dea00-d695-11eb-9808-a5bcd93bbfb5.png" alt="html-5" width="18px" height="18px"></code> CSS
 
 Структура проекта организована по [BEM methodology](https://ru.bem.info/methodology/)
+
+
+##### Что улучшить:
+
+#### *Заменить ширину на функцию calc

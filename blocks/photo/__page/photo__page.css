@@ -9,6 +9,7 @@
   background-size: cover;
   text-decoration: none;
   z-index: 1;
+  color: #FFFF;
 }
 
 .photo__page::after {

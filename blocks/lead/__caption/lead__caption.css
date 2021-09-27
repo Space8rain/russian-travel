@@ -1,5 +1,7 @@
-.photo__caption {
-  margin: 8px 0 0 0;
+.lead__caption {
+  margin: 0;
+  padding: 8px 0 0 0;
+  box-sizing: content-box;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -11,12 +13,12 @@
 
 @media (max-width: 1023px) {
   .photo__caption {
-    margin: 8px 0 0 24px;
+    padding: 8px 0 0 24px;
   }
 }
 
 @media (max-width: 767px) {
   .photo__caption {
-    margin: 8px 0 0 16px;
+    padding: 8px 0 0 16px;
   }
 }
