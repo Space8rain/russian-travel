@@ -1,0 +1,22 @@
+.card__image {
+  max-width: 460px;
+  grid-area: card__image;
+}
+
+@media (max-width: 1279px) {
+  .card__image {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .card__image {
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card__image {
+    max-width: 320px;
+  }
+}

@@ -1,0 +1,7 @@
+.card__link {
+  margin: 0;
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  grid-area: card__link;
+}

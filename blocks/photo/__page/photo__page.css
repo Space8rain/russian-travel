@@ -1,0 +1,52 @@
+.photo__page {
+  position: relative;
+  margin: 92px auto;
+  max-width: 1184px;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../../images/baikal.png);
+  background-size: cover;
+  text-decoration: none ;
+  z-index: 1;
+}
+
+.photo__page::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: opacity .4s ease;
+  z-index: -1;
+}
+
+.photo__page:hover::after {
+  opacity: .8;
+}
+
+@media (max-width: 1279px) {
+  .photo__page {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .photo__page {
+    max-width: 768px;
+    min-height: 480px;
+    margin: 90px auto 88px;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo__page {
+    max-width: 320px;
+    min-height: 200px;
+    margin: 66px auto 64px;
+  }
+}

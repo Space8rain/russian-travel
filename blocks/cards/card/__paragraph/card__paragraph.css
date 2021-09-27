@@ -1,0 +1,18 @@
+.card__paragraph {
+  margin: 0 0 26px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+.card__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1023px) {
+  .card__paragraph {
+    font-size: 16px;
+  }
+}

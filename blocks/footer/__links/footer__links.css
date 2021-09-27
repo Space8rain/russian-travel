@@ -1,0 +1,17 @@
+.footer__links {
+  font-family: Inter;
+  display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 112%;
+}
+
+@media (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
+    font-size: 24px;
+    line-height: 100%;
+  }
+}
+
