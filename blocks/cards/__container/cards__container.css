@@ -1,5 +1,5 @@
 .cards__container {
-  max-width: 984px;
+  max-width: calc(100% - 148px * 2);
   margin: 0 auto;
   display: grid;
   gap: 80px;
@@ -7,20 +7,21 @@
 
 @media (max-width: 1279px) {
   .cards__container {
-    max-width: 928px;
+    max-width: calc(100% - 48px * 2);
   }
 }
 
 @media (max-width: 1023px) {
   .cards__container {
-    max-width: 720px;
+    max-width: calc(100% - 24px * 2);
     gap: 73px;
   }
 }
 
 @media (max-width: 767px) {
   .cards__container {
-    max-width: 320px;
+    justify-items: center;
+    max-width: 100%;
     gap: 50px;
   }
 }

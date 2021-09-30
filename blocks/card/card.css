@@ -3,7 +3,6 @@
   row-gap: 48px;
   column-gap: 40px;
   grid-template-columns: min-content;
-  /* grid-template-rows: max-content; */
   grid-template-areas:
     "card__title card__link"
     "card__image card__text";
