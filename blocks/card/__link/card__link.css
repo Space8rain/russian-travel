@@ -5,3 +5,9 @@
   flex-direction: column;
   grid-area: card__link;
 }
+
+@media (max-width: 767px) {
+  .card__link {
+    margin-left: 16px;
+  }
+}

@@ -1,12 +1,18 @@
 .header__lang-link {
     margin: 18px 18px 6px 0;
-    font-family: Inter;
+    font-family: 'Inter', ‘Arial’, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 117%;
     color: white;
     text-decoration: none;
+    opacity: 1;
+    transition: opacity .4s;
+}
+
+.header__lang-link:hover {
+  opacity: .7;
 }
 
 .header__lang-link:last-of-type {

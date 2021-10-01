@@ -1,9 +1,15 @@
 .card__link-address {
-  font-family: Inter;
+  font-family: 'Inter', ‘Arial’, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 122%;
   color: #FFFFFF;
   text-decoration-line: underline;
+  opacity: 1;
+  transition: opacity .4s;
+}
+
+.card__link-address:hover {
+  opacity: .7;
 }
