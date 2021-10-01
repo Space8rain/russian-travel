@@ -1,5 +1,6 @@
 .footer__link {
   margin: 0;
+  max-width: max-content;
   padding-right: 18px;
   box-sizing: content-box;
   text-decoration: none;

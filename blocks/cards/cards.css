@@ -1,0 +1,30 @@
+.cards {
+  max-width: calc(100% - 148px * 2);
+  margin: 0 auto;
+  padding-top: 92px;
+  display: grid;
+  gap: 80px;
+}
+
+@media (max-width: 1279px) {
+  .cards {
+    max-width: calc(100% - 48px * 2);
+  }
+}
+
+@media (max-width: 1023px) {
+  .cards {
+    max-width: calc(100% - 24px * 2);
+    padding-top: 88px;
+    gap: 73px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cards {
+    justify-items: center;
+    padding-top: 64px;
+    max-width: 100%;
+    gap: 50px;
+  }
+}
